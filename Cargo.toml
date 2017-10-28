@@ -1,0 +1,14 @@
+[package]
+name = "fides"
+version = "0.1.0"
+authors = ["Cole Reynolds <cpjreynolds@gmail.com>"]
+description = "Unix file descriptor utilities"
+repository = "https://github.com/cpjreynolds/fides"
+documentation = "https://docs.rs/fides"
+homepage = "https://github.com/cpjreynolds/fides"
+readme = "README.md"
+license = "MIT"
+keywords = ["fd", "pipe", "file"]
+
+[dependencies]
+libc = "0.2"
